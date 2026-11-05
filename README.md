@@ -7,6 +7,10 @@
 > - 커밋 이력은 옮기지 않았습니다. 기여 내역(원 저장소 기준 커밋 수): sooyahh 199 · Ajou-Joa 143 · subin050203-prog 53 · wldusdn03 43 · 38grace 15.
 > - 아래 본문은 대회 당시 팀 안내서를 그대로 둔 것이라 `eigensinn-dcc2026/prelim` 링크와 clone 주소는 열리지 않습니다.
 
+### 평가 과제의 용어 (포트폴리오 안내)
+
+**Mission 2는 speaker separation(음원 분리)이 아니라 speaker-role classification(발화자 역할 분류)입니다.** 이미 분할된 발화 구간 하나를 입력받아 해당 발화가 **신고자** 또는 **119 상황실** 중 어느 역할에 해당하는지 분류합니다. 별도 음원으로 목소리를 분리하거나 여러 화자를 시간순으로 찾아내는 source separation / diarization 과제는 아닙니다. 아래 Accuracy **91.49%**는 이 이진 분류 과제의 공식 Validation 지표입니다.
+
 데이터+AI 크리에이터 캠프(DCC) 2026 대학부 예선 **「전화대화 음성 및 전사 데이터를 이용한 응급상황 인식」**을 위한 팀 저장소입니다.
 
 이 문서는 저장소의 현재 상태, Mission별 진행 상황, 주요 경로와 작업 시작 방법을 빠르게 파악하기 위한 안내서입니다. 실험 수치의 원본은 [`docs/experiment_log.md`](./docs/experiment_log.md), 모델·방법론의 채택·기각·보류 근거는 [`docs/decisions.md`](./docs/decisions.md)에서 관리합니다.
