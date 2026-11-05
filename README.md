@@ -1,4 +1,4 @@
-# DCC 2026 대학부 예선 — eigensinn
+# 데이터+AI 크리에이터 캠프 2026 대학부 예선 — eigensinn
 
 **Emergency-call recognition from 119 call audio and transcripts** (Data+AI Creator Camp 2026, university track preliminary, 5-person team). I led the team and built everything except the Mission 2 models: the Mission 1 and Mission 3 models, the data audit and EDA, the experiment-tracking system, and the collaboration CI.
 
@@ -10,7 +10,7 @@
 
 ---
 
-데이터+AI 크리에이터 캠프(DCC) 2026 대학부 예선 **「전화대화 음성 및 전사 데이터를 이용한 응급상황 인식」** 팀 저장소의 공개용 사본입니다.
+데이터+AI 크리에이터 캠프 2026 대학부 예선 **「전화대화 음성 및 전사 데이터를 이용한 응급상황 인식」** 팀 저장소의 공개용 사본입니다.
 
 ## 개인 기여 (김장수, sooyahh)
 
