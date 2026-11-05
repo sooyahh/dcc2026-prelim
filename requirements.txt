@@ -1,0 +1,13 @@
+numpy
+pandas
+pyarrow
+librosa
+scikit-learn
+lightgbm
+tqdm
+pytest
+iterative-stratification
+matplotlib
+torch
+transformers
+opensmile==2.6.0

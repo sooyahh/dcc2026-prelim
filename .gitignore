@@ -1,0 +1,38 @@
+data/
+checkpoints/
+outputs/
+*.ipynb_checkpoints/
+__pycache__/
+.env
+*.pyc
+.pytest_cache/
+reports/data_audit/*/comparison.csv
+reports/data_audit/*/local_manifest.csv
+reports/data_audit/*/pair_audit.csv
+reports/data_audit/*/remote_manifest.csv
+
+# EDA regenerable / local-only
+reports/eda/wav_header_cache.csv
+reports/eda/eda_mission_summary.json
+reports/eda/waveform_sample_features.parquet
+
+# Mission 2 per-utterance error detail (14MB+, regenerable via
+# scripts/analyze_mission2_errors.py) -- only the summary JSON is committed
+reports/mission2/m2_error_analysis_full.csv
+
+# Local scratch output and remote-attachment cache (never committed)
+/tmp/
+/.codex-remote-attachments/
+
+# PowerPoint lock files (created while a .pptx is open, never commit)
+~$*.pptx
+ppt/node_modules/
+
+# Submission checkpoints are copied in at packaging time, never committed
+submission/**/*.pt
+submission/**/*.pth
+submission/**/*.ckpt
+
+# Locally retrained reeval model binary and per-utterance predictions (only metrics/per-label CSV are committed)
+reports/mission3/m3_reeval_tfidf_lr/*.joblib
+reports/mission3/m3_reeval_tfidf_lr/validation_predictions.csv
