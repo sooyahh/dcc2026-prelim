@@ -21,3 +21,7 @@
 *.pt      binary
 *.bin     binary
 *.safetensors binary
+
+# GitHub language stats: notebooks are mostly run logs and outputs, so keep them
+# out of the language bar and let the Python source decide the repository language.
+*.ipynb linguist-vendored
