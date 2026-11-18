@@ -95,3 +95,7 @@ python -m pytest
 - 대회 데이터 재배포 금지에 따라 음성·전사 원본, 샘플 단위 정답·예측 파일, 통화 ID가 출력된 노트북 결과는 넣지 않았습니다. 그래서 일부 문서가 가리키는 파일(예: `reports/mission1/m1_val_error_rows.parquet`, `reports/mission3/ensemble/probs/`)은 이 사본에 없습니다.
 - 모델 가중치(M1 약 386MB, M3 약 4.05GB, M2 앙상블)는 용량 때문에 넣지 않았습니다.
 - 문서 안의 팀 저장소 링크와 PR 번호는 비공개 저장소를 가리킵니다.
+
+## License
+
+코드는 [MIT](LICENSE)입니다(팀원 5명 동의). 대회 데이터에는 적용되지 않습니다.
