@@ -6,7 +6,7 @@
 - **데이터 루트**: `DCC_DATA_ROOT` → `data/raw_merged` (개인 PC 절대경로·`raw_original` 하드코딩 금지)
 - **입력 제약**: 전사 텍스트만. 그 외 annotation 사용 금지
 - **지표**: Macro F1 + 증상별 P/R/F1. 슬라이스: 구토·오심 공동오류, 2개 이상 라벨 통화
-- **Colab**: `daulkim2001@gmail.com` Pro, **이번 주 T4 가정**. ckpt는 Drive/로컬만, Git 커밋 금지
+- **Colab**: 팀 Colab Pro 계정, **이번 주 T4 가정**. ckpt는 Drive/로컬만, Git 커밋 금지
 - **제출 정렬**: 최종 추론은 `python inference.py --audio_dir {wav} --label_dir {json} --ckpt_path {ckpt} --output ./outputs/mission3.csv` · CSV 열 `[label file name]`, `[symptom]`
 
 ## 왜 재평가가 필요한가
