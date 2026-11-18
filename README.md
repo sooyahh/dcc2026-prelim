@@ -73,6 +73,9 @@ M3에서 예측 라벨이 하나도 없을 때 가장 높은 확률의 증상 1�
 
 ## 저장소 구조
 
+<details>
+<summary>펼쳐 보기</summary>
+
 ```text
 dcc2026-prelim/
 ├── .github/               # PR 템플릿, 정책 검사·테스트 CI, 병합 판정 설정
@@ -92,7 +95,12 @@ dcc2026-prelim/
 └── WORKFLOW.md            # Git/GitHub 협업 규칙
 ```
 
+</details>
+
 ## 실행
+
+<details>
+<summary>펼쳐 보기</summary>
 
 ```bash
 python -m pip install -r requirements.txt
@@ -105,13 +113,20 @@ python -m pytest
 원본 데이터 준비 → WAV·JSON manifest 생성 → Mission별 dataset/feature 생성 → 학습·평가 → 실험 로그와 보고서 기록
 ```
 
+</details>
+
 ## 공개용 사본 안내
+
+<details>
+<summary>펼쳐 보기</summary>
 
 - 이 저장소는 팀 저장소(비공개)의 대회 종료 시점 `main`(2026-10-14)을 포트폴리오용으로 옮긴 것입니다. 팀원 5명의 동의를 받아 공개합니다.
 - 커밋 이력은 옮기지 않았습니다. 원 저장소 기준 커밋 수: sooyahh 199 · Ajou-Joa 143 · subin050203-prog 53 · wldusdn03 43 · 38grace 15.
 - 대회 데이터 재배포 금지에 따라 음성·전사 원본, 샘플 단위 정답·예측 파일, 통화 ID가 출력된 노트북 결과는 넣지 않았습니다. 그래서 일부 문서가 가리키는 파일(예: `reports/mission1/m1_val_error_rows.parquet`, `reports/mission3/ensemble/probs/`)은 이 사본에 없습니다.
 - 모델 가중치(M1 약 386MB, M3 약 4.05GB, M2 앙상블)는 용량 때문에 넣지 않았습니다.
 - 문서 안의 팀 저장소 링크와 PR 번호는 비공개 저장소를 가리킵니다.
+
+</details>
 
 ## License
 
